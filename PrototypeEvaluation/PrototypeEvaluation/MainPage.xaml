@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:PrototypeEvaluation"
              x:Class="PrototypeEvaluation.MainPage">
 
-	<Label Text="Hello World from weird apple side!" 
+	<Label Text="Hello World from weird apple!" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
