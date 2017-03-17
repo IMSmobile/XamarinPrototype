@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:PrototypeEvaluation"
              x:Class="PrototypeEvaluation.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
+	<Label Text="Hello World of Xamarin!" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
