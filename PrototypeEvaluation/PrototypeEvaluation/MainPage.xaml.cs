@@ -13,5 +13,11 @@ namespace PrototypeEvaluation
 		{
 			InitializeComponent();
 		}
+
+		async void GoLoginButtonClicked(object sender, EventArgs args)
+		{
+			await Navigation.PopModalAsync();
+		}
+
 	}
 }

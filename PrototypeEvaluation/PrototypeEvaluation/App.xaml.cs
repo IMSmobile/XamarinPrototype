@@ -13,7 +13,7 @@ namespace PrototypeEvaluation
 		{
 			InitializeComponent();
 
-			MainPage = new PrototypeEvaluation.MainPage();
+			MainPage = new PrototypeEvaluation.LoginPage();
 		}
 
 		protected override void OnStart ()
