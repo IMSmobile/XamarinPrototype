@@ -10,11 +10,12 @@ namespace PrototypeEvaluation
 		public LoginPage()
 		{
 			InitializeComponent();
-		}
+        }
 
 		async void OnLoginButtonClicked(object sender, EventArgs args)
 		{
-			var VersionPage = new MainPage();
+            var authData = string.Format("{0}:{1}", usernameEntry.Text, passwordEntry.Text);
+            var VersionPage = new MainPage(authData);
 			await Navigation.PushModalAsync(VersionPage);
 		}
 	}
