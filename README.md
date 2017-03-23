@@ -1,4 +1,20 @@
 ## Readme Xamarin Prototype
+Evaluation Prototype for IMSmobile/app.  
+Progress is tracked in [IMSmobile/app/issue/4](https://github.com/IMSmobile/app/issues/4)
+
+## Setup
+Install Visual Studio including Xamarin Plugin, Android SDK. ( https://developer.xamarin.com/guides/cross-platform/windows/visual-studio/ )
+For macOS install Xamarin Studio (and XCode for Emulation). (developer.xamarin.com/guides/cross-platform/xamarin-studio/)
+
+## Inspiration
+Guide through Xamarin: https://developer.xamarin.com/guides/
+Many simple examples for different basicfunctions: https://github.com/xamarin/xamarin-forms-samples
+
+## Playground
+No online playground avaible. IDE (Visual Studio or Xamarin Studio) needed.
+
+## Package Catalog
+https://www.nuget.org/packages
 
 ## Evaluate ecosystem from Xamarin
 
