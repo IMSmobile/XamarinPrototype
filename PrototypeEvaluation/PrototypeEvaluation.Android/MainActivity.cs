@@ -6,6 +6,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Plugin.Permissions;
+using Plugin.Permissions.Abstractions;
 
 namespace PrototypeEvaluation.Droid
 {
@@ -22,6 +24,11 @@ namespace PrototypeEvaluation.Droid
 			global::Xamarin.Forms.Forms.Init (this, bundle);
 			LoadApplication (new PrototypeEvaluation.App ());
 		}
-	}
+
+        //public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
+        //{
+        //    PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        //}
+    }
 }
 

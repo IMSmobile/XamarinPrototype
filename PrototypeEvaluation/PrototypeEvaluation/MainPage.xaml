@@ -6,11 +6,17 @@
 	         Padding="10, 40, 10, 10">
 
     <ContentPage.Content>
-        <StackLayout VerticalOptions="StartAndExpand">
-            <Label Text="Show Version:"  HorizontalOptions="CenterAndExpand"/>
-            <Label x:Name="VersionLabel" Text="No Result"  HorizontalOptions="CenterAndExpand"/>
-            <Button x:Name="GalleryButton" Text="Gallery"/>
-            <Button Text="LoginPage" Clicked="GoLoginButtonClicked"/>
-        </StackLayout>
+        <ScrollView  Orientation = "Vertical" VerticalOptions="StartAndExpand">
+            <StackLayout VerticalOptions="StartAndExpand" Spacing="10">
+                <Label Text="Show Version:"  HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="VersionLabel" Text="Wait for Version..."  HorizontalOptions="CenterAndExpand"/>
+                <Button Text="LoginPage" Clicked="GoLoginButtonClicked"/>
+                <Button x:Name="takePhoto" Text="Take Photo"/>
+                <Button x:Name="pickPhoto" Text="Pick Photo"/>
+                <Button x:Name="takeVideo" Text="Take Video"/>
+                <Button x:Name="pickVideo" Text="Pick Video"/>
+                <Image x:Name="image"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
