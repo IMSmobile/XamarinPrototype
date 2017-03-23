@@ -31,4 +31,4 @@ No additional cost for IDE with Xamarin.
 ### Apps can also run in a Browser (req 3)
 There is a project in development to use Xamarin with a Browserplugin (https://github.com/xamarin/WebSharp).
 ### Have been shown to work with CI and CD (req 9, 10)
-Build server possible with Jenkins or Teamfoundation Build. Also Testcloud for different devices possible (fee required).
+Build server possible with Jenkins or Teamfoundation Build. Also Testcloud for different devices possible (fee required). More information here: https://developer.xamarin.com/guides/cross-platform/ci/intro_to_ci/
